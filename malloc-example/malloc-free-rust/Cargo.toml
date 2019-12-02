@@ -1,0 +1,7 @@
+[package]
+name = "malloc-free-rust"
+version = "0.1.0"
+authors = ["selina98 <selina98@live.unc.edu>"]
+edition = "2018"
+
+[dependencies]
