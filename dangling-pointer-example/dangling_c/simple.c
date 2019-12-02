@@ -4,11 +4,12 @@
   
  int main(void) 
  { 
-     // this is accessing garbage memory
-     char *p ; 
-  
-     strcat(p, "abc"); 
-     printf("\n %s \n", p); 
-  
-     return 0; 
+    char **strPtr;
+    char *str = "Hello!";
+
+    strPtr = &str;
+    free(str);
+    //strPtr now becomes a dangling pointer
+
+    printf("%s", *strPtr);
  } 

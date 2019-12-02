@@ -1,7 +1,7 @@
 [package]
 name = "lifetime_rust"
 version = "0.1.0"
-authors = [Selina Zhang]
+authors = ["Selina Zhang"]
 edition = "2018"
 
 [dependencies]
