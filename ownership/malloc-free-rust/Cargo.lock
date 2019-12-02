@@ -1,0 +1,4 @@
+[[package]]
+name = "malloc-free-rust"
+version = "0.1.0"
+
